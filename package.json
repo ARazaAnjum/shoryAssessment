@@ -1,0 +1,51 @@
+{
+  "name": "shorey",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --progress",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali <arazaanjum@gmail.com>",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.12.3",
+    "immutable": "3.7.6",
+    "jquery": "2.2.1",
+    "react": "0.14.7",
+    "react-dom": "0.14.7",
+    "react-redux": "4.4.0",
+    "react-router": "2.0.0",
+    "react-youtube": "7.13.1",
+    "redux": "3.3.1",
+    "redux-saga": "0.9.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-eslint": "5.0.0",
+    "babel-loader": "6.2.3",
+    "babel-plugin-react-transform": "2.0.0",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-polyfill": "6.5.0",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "css-loader": "0.23.1",
+    "eslint": "2.2.0",
+    "eslint-loader": "1.3.0",
+    "eslint-plugin-react": "4.0.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "0.8.5",
+    "html-webpack-plugin": "2.9.0",
+    "less": "2.6.0",
+    "less-loader": "2.2.2",
+    "react-transform-hmr": "1.0.2",
+    "redux-logger": "2.6.0",
+    "style-loader": "0.13.0",
+    "webpack": "1.12.13",
+    "webpack-dev-server": "1.14.1"
+  }
+}
